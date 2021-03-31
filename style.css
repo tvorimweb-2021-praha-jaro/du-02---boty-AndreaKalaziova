@@ -29,39 +29,56 @@ body {
 }
 .detaily{
     max-width: 335px;
+    border: solid 5px rebeccapurple;
+    padding: 30px;
 }
 
 h1{font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
-    padding: 30px 30px 0 30px;
 }
 
 .produkt{ color: grey;
-    padding: 0 30px 30px 30px;
 }
 
-.popis {padding: 0 30px 30px 30px;
-    border-bottom: solid 2px #06d7c1;
+.popis {
+    padding: 30px 0;
+    border-bottom: solid 1px #06d7c1;
 }
 
 .parametr{text-transform: uppercase;
     font-size: 14px;
     font-weight: 400px;
-    padding: 30px 30px 0 30px;
+    padding-top: 30px;
 }
 
-ul{ padding: 0 30px 30px 30px;
+ul{ padding: 0 30px 30px 0;
 }
 
 li{
     display: inline-block;
-    margin: 10px;
+    margin: 7px;
 }
 
 .vybrana{
     color: #f15f42;
-    padding: 10px;
+    font-weight: 500;
+    padding: 4px;
     border: solid 1px #f15f42;
     border-radius: 50%;
+}
+
+.akce{
+    background-color: #f15f42;
+    border-radius: 10px;
+    width: 133px;
+    min-height: 40px;
+    padding: 15px 30px;
+}
+
+.tlacitko{    
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f5f5f5;
+    
 }
